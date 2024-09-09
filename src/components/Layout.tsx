@@ -6,7 +6,7 @@ export default function Layout({ children }: PropsWithChildren) {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen p-4">{children}</main>
+      <main className="overflow-y-hidden">{children}</main>
       <Footer />
     </>
   );
