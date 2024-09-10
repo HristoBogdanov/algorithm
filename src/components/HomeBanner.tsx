@@ -6,7 +6,7 @@ export default function HomeBanner() {
       }}
       className="w-full h-[473px] bg-cover bg-left-top bg-no-repeat overflow-y-hidden"
     >
-      <div className="relative flex w-full lg:w-1/2 h-full flex-col justify-center gap-10 lg:gap-20 text-white pl-10 xl:pl-20 pr-7 py-7 xl:pr-14 xl:py-14">
+      <div className="relative flex w-full lg:w-1/2 h-full flex-col justify-center gap-10 lg:gap-20 text-white px-6 md:px-10 xl:px-20 py-7 xl:py-14">
         <h1 className="font-black text-[30px] md:text-[40px] lg:text-[50px] z-20">
           Свържете се с нас
         </h1>

@@ -3,7 +3,7 @@ import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
   return (
-    <nav className="w-full h-[100px] md:h-[150px] xl:h-[200px] max-sm:px-6 flex items-center justify-between bg-white container gap-20 lg:gap-0 xl:px-20 mx-auto">
+    <nav className="w-full h-[100px] md:h-[150px] xl:h-[200px] max-sm:px-6 flex items-center justify-between bg-customGray container gap-20 lg:gap-0 xl:px-20 mx-auto">
       <Link to="/">
         <img
           src="/algorithm.png"
@@ -14,7 +14,7 @@ export default function Navbar() {
         <li>
           <Link
             to="/"
-            className="border-b-2 pb-2 transition-all duration-300 border-white hover:border-black"
+            className="border-b-2 pb-2 transition-all duration-300 border-customGray hover:border-black"
           >
             Начало
           </Link>
@@ -22,7 +22,7 @@ export default function Navbar() {
         <li>
           <Link
             to="/"
-            className="border-b-2 pb-2 transition-all duration-300 border-white hover:border-black"
+            className="border-b-2 pb-2 transition-all duration-300 border-customGray hover:border-black"
           >
             За нас
           </Link>
@@ -30,7 +30,7 @@ export default function Navbar() {
         <li>
           <Link
             to="/"
-            className="border-b-2 pb-2 transition-all duration-300 border-white hover:border-black"
+            className="border-b-2 pb-2 transition-all duration-300 border-customGray hover:border-black"
           >
             Продукти
           </Link>
@@ -38,7 +38,7 @@ export default function Navbar() {
         <li>
           <Link
             to="/"
-            className="border-b-2 pb-2 transition-all duration-300 border-white hover:border-black"
+            className="border-b-2 pb-2 transition-all duration-300 border-customGray hover:border-black"
           >
             Портфолио
           </Link>
