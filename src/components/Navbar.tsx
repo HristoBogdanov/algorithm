@@ -3,14 +3,14 @@ import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
   return (
-    <nav className="w-full h-[100px] md:h-[150px] xl:h-[200px] max-sm:px-6 flex items-center justify-between bg-white container gap-20 lg:gap-0 xl:px-20 2xl:px-32 mx-auto">
+    <nav className="w-full h-[100px] md:h-[150px] xl:h-[200px] max-sm:px-6 flex items-center justify-between bg-white container gap-20 lg:gap-0 xl:px-20 mx-auto">
       <Link to="/">
         <img
           src="/algorithm.png"
           className="w-[120px] md:w-[180px] xl:w-[203px] bg-contain"
         />
       </Link>
-      <ul className="hidden md:flex w-full lg:w-1/2 items-center justify-between text-[19.55px]">
+      <ul className="hidden md:flex w-full lg:w-1/2 h-full items-center justify-between text-[19.55px]">
         <li>
           <Link
             to="/"

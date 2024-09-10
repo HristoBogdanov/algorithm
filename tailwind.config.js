@@ -5,8 +5,9 @@ export default {
     extend: {
       colors: {
         customGray: "#ebebec",
-        customBrown: "#3b3939",
+        customBrown: "#726d6c",
         customGreen: "#3bae7c",
+        customBlack: "#282828",
       },
     },
   },
