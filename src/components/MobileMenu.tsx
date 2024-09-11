@@ -6,7 +6,7 @@ export default function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="block md:hidden">
+    <div className="block md:hidden overflow-hidden z-30">
       <Hamburger toggled={isOpen} toggle={setIsOpen} />
       <div
         className={`w-screen max-w-[250px] absolute top-[100px] md:top-[150px] right-0 bg-white bg-gradient-to-tr shadow-md from-white to-customGray p-6 transition-transform duration-500 ${
@@ -27,7 +27,7 @@ export default function MobileMenu() {
             <Link to="/">Портфолио</Link>
           </li>
           <li>
-            <Link to="/">Контакти</Link>
+            <Link to="/" className="pb-2 border-b-2 border-black">Контакти</Link>
           </li>
         </ul>
       </div>
