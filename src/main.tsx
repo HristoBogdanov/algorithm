@@ -17,11 +17,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/successfully-sent",
-    element: (
-      <Layout>
-        <SuccessfullySent />
-      </Layout>
-    ),
+    element: <SuccessfullySent />,
   },
 ]);
 

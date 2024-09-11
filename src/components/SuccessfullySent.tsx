@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function SuccessfullySent() {
   return (
-    <div className="container min-h-[70vh] flex flex-col justify-center items-center gap-20">
+    <div className="container min-h-screen flex flex-col justify-center items-center gap-20">
       <h1 className="font-black text-[30px] max-w-[800px] text-center">
         Вашeто запитване беше изпратено успешно! Ще се свържем с Вас при първа
         възможност.
