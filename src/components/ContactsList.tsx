@@ -4,7 +4,7 @@ export default function ContactsList() {
   return (
     <div className="w-full flex flex-col gap-10 lg:gap-20">
       <div className="flex flex-col w-full gap-10 text-[18px] lg:text-[22px] lg:leading-[35px]">
-        <p className="font-bold">Производствена база и магазин:</p>
+        <h2 className="font-bold">Производствена база и магазин:</h2>
         <ul className="w-full flex flex-col gap-4 lg:pb-8">
           <li className="hover:text-customGreen transition-all duration-300">
             <Link to="tel: 02 / 123 456" target="_blank">

@@ -8,6 +8,7 @@ export default {
         customBrown: "#726d6c",
         customGreen: "#3bae7c",
         customBlack: "#282828",
+        borderColor: "#6d6e71",
       },
     },
   },

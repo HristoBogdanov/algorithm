@@ -1,9 +1,11 @@
 import ContactsList from "./ContactsList";
+import FormSection from "./FormSection";
 
 export default function ContactsSection() {
   return (
-    <div className="container mx-auto flex flex-col md:flex-row justify-center md:justify-between max-sm:px-6 pb-10 lg:pb-32">
+    <div className="container mx-auto flex flex-col gap-10 2xl:gap-0 lg:flex-row justify-center lg:justify-between max-sm:px-6 pb-10 lg:pb-32">
       <ContactsList />
+      <FormSection />
     </div>
   );
 }
