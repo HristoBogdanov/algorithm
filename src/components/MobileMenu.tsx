@@ -9,7 +9,7 @@ export default function MobileMenu() {
     <div className="block md:hidden overflow-hidden z-30">
       <Hamburger toggled={isOpen} toggle={setIsOpen} />
       <div
-        className={`w-screen max-w-[250px] absolute top-[100px] md:top-[150px] right-0 bg-white bg-gradient-to-tr shadow-md overflow-hidden from-white to-customGray p-6 transition-transform duration-500 ${
+        className={`w-screen max-w-[250px] absolute top-[100px] md:top-[150px] right-0 bg-white bg-gradient-to-tr shadow-md overflow-hidden from-white to-customGray transition-transform duration-500 ${
           isOpen
             ? "translate-x-0 h-fit w-fit p-6"
             : "translate-x-full h-0 w-0 p-0"
